@@ -3,41 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student 1's Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            background-color: #ffcc00;
-            padding: 20px;
-        }
-        h1 {
-            margin: 0;
-        }
-        .content {
-            text-align: center;
-            margin-top: 50px;
-        }
-        .content h2 {
-            color: #ff6347;
-        }
-    </style>
+    <title>Nam's Page</title>
 </head>
-<body>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f9f9f9; color: #333; margin: 0; padding: 0;">
 
-<header>
-    <h1>Welcome to Student 1's Page</h1>
+<header style="text-align: center; background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%); padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h1 style="margin: 0; font-size: 2.5rem; color: #fff;">Welcome to Nam's Page</h1>
 </header>
 
-<div class="content">
-    <h2>My Personal Page</h2>
-    <p>This is where I can add anything cool about myself!</p>
-    <p>For now, it's just a placeholder, but I will add more later!</p>
+<div style="padding: 20px; max-width: 1200px; margin: 0 auto; text-align: center;">
+    <div>
+        <h2 style="color: #ff6347; font-size: 2rem; margin-bottom: 15px;">My Personal Page</h2>
+        <p style="font-size: 1.1rem; line-height: 1.6; color: #555; margin-bottom: 20px;">Hi hi, my name is Nam. I code sometimes...</p>
+    </div>
+    
+    <div>
+        <img src="./pics/nam.jpeg" alt="Nam's picture" style="max-width: 30%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
+    </div>
+    
+    <div>
+        <p style="font-size: 1.1rem; color: #555;">Here are my two cattos:</p>
+        <video autoplay muted width="60%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+            <source src="./pics/cats.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <button onclick="window.location.href='main.html'" style="background-color: #ff6347; color: #fff; border: none; padding: 10px 20px; font-size: 1.1rem; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">Click to go back</button>
+    </div>
 </div>
+
+<footer style="text-align: center; margin-top: 40px; font-size: 0.9rem; color: #777;">
+    <p>Thanks for visiting! &copy; 2025 Nam's Page</p>
+</footer>
 
 </body>
 </html>
